@@ -21,7 +21,7 @@ int main() {
         for (quantity1 = 0; sentence[quantity1] != '\0'; quantity1++) {
             sentence[quantity1] += move;
             if (sentence[quantity1] > 90) {
-                sentence[quantity1] - 25;
+                sentence[quantity1] -= 26;
             }
         }
         cout << sentence << endl;
@@ -29,7 +29,7 @@ int main() {
         for (quantity1 = 0; sentence[quantity1] != '\0'; quantity1++) {
             sentence[quantity1] -= move;
             if (sentence[quantity1] > 90) {
-                sentence[quantity1] + 25;
+                sentence[quantity1] += 26;
             }
         }
         cout << sentence << endl;
